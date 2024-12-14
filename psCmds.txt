@@ -1,0 +1,1 @@
+Get-ChildItem -File | Where-Object { $_.Extension -notin '.hs', '.txt' } | Remove-Item -Force
